@@ -1,0 +1,11 @@
+Lab
+Form a group of TWO or THREE via https://chat.whatsapp.com/KdJ06VAcvOFGG55iQMWAf8, you pick your own group and software to meetup (5 min)
+Work:
+
+Given that you just learn encryption and decryption concepts,
+Research and discuss whether person to person email such as gmail, outlook, yahoo mail, etc. are secure today or not. List your findings.
+Also research and discuss whether a company can prevent internal email to leak into the public. Stay your stand and list your findings.
+
+Email your writeups to coolprofsinn@gmail.com by the end of the 40 min research and discussion.
+Remember to send list of members (one email per group), use group of 2 (or 3) max for this lab.
+Return to class, and we will ask two groups to present to others.

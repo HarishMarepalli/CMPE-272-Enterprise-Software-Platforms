@@ -1,0 +1,14 @@
+Lab
+Form a group of FOUR or less via https://chat.whatsapp.com/KdJ06VAcvOFGG55iQMWAf8, you pick your own group and software to meetup (5 min)
+Work:
+
+Part 1: As a group, research, discuss and define the high level components needed to build the following systems. And identify which componnents within the system needed to be put inside a DMZ. Explain your reason.
+a. Implementation of text based chat system such as the feature in whatsapp, facebook messager or wechat.
+b. Implementation of voice and video based chat system such as the feature in whatsapp, facebook messager or wechat.
+c. Implementation of an e-commerce system with payment such as ebay + paypal.
+
+Part 2: if you are to implement any of the above system using a "cloud" solution, what would you need from the cloud provider?
+
+Email your writeups to coolprofsinn@gmail.com by the end of the 50 min research and discussion.
+Remember to send list of members (one email per group), use group of 4 max for this lab.
+Return to class, and we will ask two groups to present to others. (Return to zoom @ 11:05 am)

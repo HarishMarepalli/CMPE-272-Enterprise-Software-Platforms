@@ -1,0 +1,9 @@
+Lab
+Form a group of TWO or THREE via https://chat.whatsapp.com/KdJ06VAcvOFGG55iQMWAf8, you pick your own group and software to meetup (5 min)
+Work:
+
+Given what you have learn in security concepts,
+Research and discuss whether person to person chat programs such as whatsapp, wechat, line, facebook messenger, etc. are secure today or not. Discuss the architecture of the programs and propose how a chat program can achieve CIAA as described in class.
+
+Email your writeups to coolprofsinn@gmail.com by the end of the 40 min research and discussion.
+Remember to send list of members (one email per group), use group of 2 (or 3) max for this lab.

@@ -1,0 +1,23 @@
+Team members:
+
+Indranil - 016728374
+
+Min Joung - 012232415
+
+Harish - 016707314
+
+Saiteja - 016707210
+
+
+
+Title: Gesture Vehicle Controller (GVC)
+
+
+
+Description:
+
+The app provides an interface to control other mobility devices using the mobile phone. Using the in-built accelerometer we control the direction of the vehicle. Tilting the phone forwards moves the vehicle ahead and along similar lines, tilting it back/sideways moves the device in those directions. The communication between the vehicle and the mobile app happens over the 5G network/bluetooth, where the data is sent over the network to the device. Depending on the distance of the device from the controller, 5G or bluetooth network is used. This can also be patented and licensed to various device manufacturers who are able to independently build devices supporting this feature, expanding the list of possible devices which are supported.
+
+
+
+Attached are application flow and proposed architecture.

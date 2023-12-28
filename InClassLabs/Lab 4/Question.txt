@@ -1,0 +1,9 @@
+Lab
+Form group of four via https://chat.whatsapp.com/KdJ06VAcvOFGG55iQMWAf8, you pick your own group and software to meetup (5 min)
+Work:
+Group discussion:
+Setting: With access to some chat programs become more difficult, discuss with your group how you can architect a chat system where only HTTP clients and HTTP servers are involved.
+Provide a basic architect diagram on how you think the system should work.
+Describe a basic use case (with detail enough description) on how one user in your system will chat with another one.
+Email the answers to coolprofsinn@gmail.com by the end of the 35 min discussion.
+Remember to send list of members (one email per group), use group of 4 max for this lab.

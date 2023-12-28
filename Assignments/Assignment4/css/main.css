@@ -1,0 +1,302 @@
+body, .aboutPage, .contactsPage, .productsPage, .newsPage, .securePage
+{
+    /*background: none;*/
+    background: url(../img/Softsol_page_background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 80px;
+}
+
+/* Navigation Bar Styles */
+nav.navbar
+{
+    background: rgba(211, 211, 211, 0.4);
+}
+
+nav.navbar div.container-fluid ul.navbar-nav a
+{
+    color: ivory;
+}
+
+nav.navbar div.container-fluid ul.navbar-nav a:hover
+{
+    background-color: #439be8;
+}
+
+nav.navbar .nav-item
+{
+    padding: 0 20px;
+}
+
+/* Home page CSS */
+div.introtext1_wrapper, div.introtext2_wrapper, div.exploreContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.introtext1_wrapper
+{
+    margin-top: 2em;
+}
+
+div.introtext2_wrapper
+{
+    margin-top: -4em;
+}
+
+div.introtext1_wrapper p.introtext1
+{
+    font-size: 9em;
+    color: ivory;
+}
+
+div.introtext2_wrapper p.introtext2
+{
+    /*font-family: 'Satisfy', cursive;*/
+    font-size: 9em;
+    color: ivory;
+}
+
+div.exploreContainer .exploreBtn, div.exploreContainer .loginBtn
+{
+    border-radius: 10px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #439be8, #439be8);
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+div.exploreContainer .exploreBtn:hover, div.exploreContainer .loginBtn:hover
+{
+    background-image: linear-gradient(to right, #0b3458, #0b3458);
+}
+
+/* About Page CSS */
+div.featured-work
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+div.featured-work p.work-info
+{
+    font-size: 3em;
+    color: azure;
+    font-style: italic;
+}
+
+div.welcome-info-cont
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+div.welcome-info-cont p.welcome-info
+{
+    color: azure;
+    font-size: 28px;
+}
+
+div.welcome-desc-cont
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 20em;
+    margin-top: 3em;
+}
+
+div.welcome-desc-cont p.welcome-desc
+{
+    color: aquamarine;
+    font-size: 19px;
+}
+
+/*Products Page CSS*/
+div.mt-6 p
+{
+    color: ivory;
+}
+
+/*News Page CSS*/
+div.news-text p
+{
+    color: ivory;
+}
+
+/* Contact Us Page CSS */
+div.main-contacts
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+div.main-contacts p.contact-info
+{
+    color: antiquewhite;
+}
+
+/* Login Page CSS */
+div.modal#loginModal, div.modal#signUpModal
+{
+    font-family: sans-serif;
+}
+
+div.modal div.modal-body div.loginContainer, div.modal div.modal-body div.signUpBtnContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.modal div.modal-body div.loginContainer .loginSubmitBtn, div.modal div.modal-body div.signUpContainer .signUpBtn, div.modal div.modal-body div.signUpBtnContainer .signUpBtn
+{
+    width: 6em;
+    border-radius: 10px;
+    background: #439be8;
+    border: none;
+    height: 3em;
+    color: #fff;
+}
+
+div.modal div.modal-body div.loginContainer .loginSubmitBtn:hover div.modal div.modal-body div.signUpContainer .signUpBtn:hover, div.modal div.modal-body div.signUpBtnContainer .signUpBtn:hover
+{
+    background: #0b3458;
+}
+
+div.signUpContainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.signUpContainer .createAccText
+{
+    margin: 0;
+}
+
+div.signUpContainer .signUpBtn
+{
+    text-decoration: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+/* Secure Page CSS */
+div.secureContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+div.secureContainer h1.secureWelcome
+{
+    color: #fff;
+}
+
+div.secureContainer p.simpleText
+{
+    color:#fff;
+}
+
+div.secureContainer p.usersList
+{
+    color: #fff;
+}
+
+/* users Page CSS */
+.txtContainer
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.txtContainer .text1, .txtContainer .text2
+{
+    color: #fff;
+}
+
+div.container .table
+{
+    color:#fff;
+}
+
+div.usersContainer
+{
+    margin: 3em;
+}
+
+div.usersContainer div.add_Search_BtnContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.usersContainer div.add_Search_BtnContainer .addUserBtn, 
+div.usersContainer div.add_Search_BtnContainer .searchUserBtn
+{
+    width: 6em;
+    border-radius: 10px;
+    background: #439be8;
+    border: none;
+    height: 3em;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin: 2em;
+    text-align: center;
+}
+
+div.usersContainer div.add_Search_BtnContainer .addUserBtn:hover, div.usersContainer div.add_Search_BtnContainer .searchUserBtn:hover
+{
+    background: #0b3458;
+}
+
+/* Search User Modal Page CSS */
+div.modal#searchModal
+{
+    font-family: sans-serif;
+}
+
+div.modal div.modal-body div.searchContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.modal div.modal-body div.searchContainer .searchSubmitBtn
+{
+    width: 6em;
+    border-radius: 10px;
+    background: #439be8;
+    border: none;
+    height: 3em;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+div.modal div.modal-body div.searchContainer .searchSubmitBtn:hover
+{
+    background: #0b3458;
+}

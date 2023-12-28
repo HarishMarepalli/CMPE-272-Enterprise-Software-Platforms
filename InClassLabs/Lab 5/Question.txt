@@ -1,0 +1,7 @@
+Lab
+Form group of TWO to FOUR via https://chat.whatsapp.com/KdJ06VAcvOFGG55iQMWAf8, you pick your own group and software to meetup (5 min)
+Work:
+Without importing a full picture, use the graphic related HTML5 API discussed in class such as canvas, svg, etc., draw a picture of an animal. You can pick any animal as a group.
+Post your HTML5 page in one of your web sites (via the HW setup you did).
+Email the link to your answer to coolprofsinn@gmail.com by the end of the discussion.
+Remember to send list of members (one email per group), use group of 2 (or 3 or 4) max for this lab.

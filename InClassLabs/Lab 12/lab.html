@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+
+   <style>
+    #outputulData
+    {
+        list-style-type: none;
+    }
+
+    #outputulData li
+    {
+        padding: 1em;
+        margin-bottom: 1em;
+        border: 1px solid #000;
+        border-radius: 10px;
+        background: aliceblue;
+    }
+   </style>
+
+   <body>
+      <div data-role = "page" id = "pageone">
+         <div data-role = "header">
+            <h1>Niantic Survey</h1>
+         </div>
+
+         <div data-role = "main" class = "ui-content">
+            <form>
+                <label for="text-1">Your Name</label>
+                <input type="text" name="text-1" id="text-1" value="">
+                <h2>Do you like Pokemon Go?</h2>
+                <label>
+                <input type="radio" name="radio-choice-0" id="radio-choice-0a" onclick="submitClicked(this)">Yes
+                </label>
+                <label for="radio-choice-0b">No</label>
+                <input type="radio" name="radio-choice-01" id="radio-choice-0b" class="custom" onclick="submitClicked(this)">
+                </form>
+         </div>
+
+         <div data-role = "main" class = "ui-content" id="outputData">
+            <h2>Survey Details till now</h2>
+            <ul id="outputulData">
+                
+            </ul>
+
+         </div>
+      </div>
+   </body>
+</html>
+
+<script>
+    $(document).ready(function(){
+        init();
+    });
+    function init()
+    {
+        localStorage.setItem("User1","Yes");
+        localStorage.setItem("User2","Yes");
+        localStorage.setItem("User3","No");
+        localStorage.setItem("User4","Yes");
+        localStorage.setItem("User5","No");
+        localStorage.setItem("User6","No");
+        localStorage.setItem("User7","No");
+        localStorage.setItem("User8","Yes");
+        localStorage.setItem("User9","Yes");
+        localStorage.setItem("User10","No");
+        for(i=1;i<11;i++)
+        {
+            if(localStorage.getItem("User" + i) == "Yes")
+            {
+                $("#outputulData").append("<li>User" + i + " likes Pokemon Go</li>");
+            }
+            else
+            {
+                $("#outputulData").append("<li>User" + i + " does not like Pokemon Go</li>");
+            }
+        }
+    }
+    function submitClicked(that)
+    {
+        var value = $("#text-1").val();
+        var temp = $(that).attr('id');
+        if(temp == "radio-choice-0a")
+        {
+            localStorage.setItem(value, "Yes");
+            $("#outputulData").append("<li>" + value + " likes Pokemon Go</li>");
+        }
+        else
+        {
+            localStorage.setItem(value, "No");
+            $("#outputulData").append("<li>" + value + " does not like Pokemon Go</li>");
+        }
+
+        $(that).prop('checked', false);
+        $("#text-1").val("");
+    }
+</script>

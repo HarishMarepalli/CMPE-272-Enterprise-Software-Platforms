@@ -1,0 +1,9 @@
+Developer Contact Details:
+--------------------------
+Harish Marepalli
+SJSU ID: 016707314
+harish.marepalli@sjsu.edu
+https://www.linkedin.com/in/harish-marepalli-9a544914a
+https://github.com/HarishMarepalli
+This website is made as a project for CMPE 272 (Fall 2022) under Prof. Richard Sinn at San Jose State University.
+The content on this website is NOT real or functional.

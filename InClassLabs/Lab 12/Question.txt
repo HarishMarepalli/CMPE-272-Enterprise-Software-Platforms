@@ -1,0 +1,14 @@
+Lab
+Form a group of TWO or less via https://chat.whatsapp.com/KdJ06VAcvOFGG55iQMWAf8, you pick your own group and software to meetup (5 min)
+Programming Exercise:
+
+Use JQuery Mobile to create a voting app, each group can decide what type of voting app they want to implement (speed dating, pets, classes, etc.). Anything that requires a "yes" or "no" decision can do.
+Requirements:
+Preload 10 choices for voting as the web app starts up. Vote yes and no for 10 times.
+The web app needs to present all the "yes" and "no" choices
+Feel free to use localstorage or any php backend for application storage
+Do what you can within the time limit
+
+Email your code and sample screenshoots to coolprofsinn@gmail.com by the end of the 60 min.
+Remember to send list of members (one email per group), use group of 2 max for this lab.
+Return to class, and we will ask two groups to present to others. (Return to zoom @ 11:15 am)

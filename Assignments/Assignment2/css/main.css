@@ -1,0 +1,114 @@
+body, .aboutPage, .contactsPage
+{
+    /*background: none;*/
+    background: url(../img/Softsol_page_background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Navigation Bar Styles */
+nav.navbar
+{
+    background: rgba(211, 211, 211, 0.4);
+}
+
+nav.navbar .nav-item
+{
+    padding: 0 20px;
+}
+
+/* Home page CSS */
+div.introtext1_wrapper, div.introtext2_wrapper, div.exploreContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.introtext1_wrapper
+{
+    margin-top: 5em;
+}
+
+div.introtext2_wrapper
+{
+    margin-top: -4em;
+}
+
+div.introtext1_wrapper p.introtext1
+{
+    font-size: 9em;
+    color: ivory;
+}
+
+div.introtext2_wrapper p.introtext2
+{
+    /*font-family: 'Satisfy', cursive;*/
+    font-size: 9em;
+    color: ivory;
+}
+
+div.exploreContainer .exploreBtn
+{
+    border-radius: 10px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #439be8, #439be8);
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+/* About Page CSS */
+div.featured-work
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+div.featured-work p.work-info
+{
+    font-size: 3em;
+    color: azure;
+    font-style: italic;
+}
+
+div.welcome-info-cont
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+div.welcome-info-cont p.welcome-info
+{
+    color: azure;
+    font-size: 28px;
+}
+
+div.welcome-desc-cont
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 20em;
+    margin-top: 3em;
+}
+
+div.welcome-desc-cont p.welcome-desc
+{
+    color: aquamarine;
+    font-size: 19px;
+}
+/* Contact Us Page CSS */
+div.main-contacts
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+div.main-contacts p.contact-info
+{
+    color: antiquewhite;
+}
